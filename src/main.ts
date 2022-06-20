@@ -7,6 +7,10 @@ import { i18n } from './lang/i18n';
 
 import 'virtual:windi.css'
 
+// setInterval(() => {
+
+
+// }, 1000)
 const app = createApp(App)
 
 app.use(createPinia())
