@@ -1,0 +1,47 @@
+{
+  "general": {
+    "hello": "Merhaba",
+    "settings": "Ayarlar"
+  },
+  "auth": {
+    "register": "Kaydol",
+    "login": "Giriş yap",
+    "logout": "Çıkış yap"
+  },
+  "calendar": {
+    "weekDays": {
+      "Monday": "Pzt",
+      "Tuesday": "Sal",
+      "Wednesday": "Çar",
+      "Thursday": "Per",
+      "Friday": "Cum",
+      "Saturday": "Cmt",
+      "Sunday": "Paz"
+    },
+    "months": {
+      "January": "Ocak",
+      "February": "Şubat",
+      "March": "Mart",
+      "April": "Nisan",
+      "May": "Mayıs",
+      "June": "Haziran",
+      "July": "Temmuz",
+      "August": "Ağustos",
+      "September": "Eylül",
+      "October": "Ekim",
+      "November": "Kasım",
+      "December": "Aralık"
+    },
+    "years": "Yıllar",
+    "year": "Yıl",
+    "month": "Ay",
+    "week": "Hafta",
+    "day": "Gün",
+    "today": "Bugün",
+    "noEvent": "Etkinlik Yok",
+    "allDay": "Tüm gün",
+    "deleteEvent": "Sil",
+    "createEvent": "Etkinlik ekle",
+    "dateFormat": "dddd D MMMM YYYY"
+  }
+}
