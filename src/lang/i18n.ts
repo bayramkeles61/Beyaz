@@ -5,7 +5,7 @@ import tr from "./languages/tr.json"
 const messages = {
   en,
   tr
-} as any
+} as {}
 
 export const i18n = createI18n({
   legacy: false,

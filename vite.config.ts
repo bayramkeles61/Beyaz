@@ -1,3 +1,4 @@
+import path from 'path'
 import { fileURLToPath, URL } from 'url'
 
 import { defineConfig } from 'vite'
@@ -12,7 +13,13 @@ export default defineConfig({
   plugins: [
     Vue(),
     WindiCSS(),
-    VueI18n(),
+    VueI18n(
+      {
+        runtimeOnly: true,
+        compositionOnly: true,
+        include: [path.resolve(__dirname, 'path/to/src/lang/languages/**')],
+      }
+    ),
     AutoImport({
       imports: [
         'vue',
