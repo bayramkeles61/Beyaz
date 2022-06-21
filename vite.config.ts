@@ -18,7 +18,6 @@ export default defineConfig({
       {
         runtimeOnly: true,
         compositionOnly: true,
-        include: [path.resolve(__dirname, 'path/to/src/lang/languages/**')],
       }
     ),
     AutoImport({
