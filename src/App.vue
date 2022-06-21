@@ -13,7 +13,7 @@
 
 <style>
 #app {
-  font-family: "Roboto";
+  font-family: "Manrope";
 }
 
 #nprogress {
