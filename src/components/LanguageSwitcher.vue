@@ -23,7 +23,7 @@ const toggleLocales = (lang: string) => {
   >
     <div
       v-if="open"
-      class="absolute top-0 w-full h-full bg-sky-500 opacity-50 cursor-pointer"
+      class="absolute top-0 w-full h-full bg-sky-500 opacity-0 cursor-pointer"
     ></div>
     <button
       @click="toggle()"
