@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="h-screen p-4">
+  <div class="h-screen p-6 px-10">
     <header>
       <div class="wrapper rounded">
         <NavBar />

@@ -13,6 +13,9 @@ export default defineConfig({
       },
     },
   },
+  shortcuts: {
+    'btn': 'hover:text-gray-900 dark:hover:text-gray-100 text-gray-600 dark:text-gray-500 cursor-pointer',
+  },
   plugins: [
     formsPlugin
   ],

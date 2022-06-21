@@ -4,7 +4,7 @@ const { t } = useI18n();
 
 <template>
   <main class="font-bold flex items-center justify-center text-5xl p-20">
-    <div>
+    <div class="text-gray-700 dark:text-gray-300">
       {{ t("general.hello") }}
     </div>
   </main>
