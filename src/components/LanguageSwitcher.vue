@@ -3,12 +3,14 @@ const { availableLocales, locale } = useI18n();
 const [open, toggle] = useToggle();
 const modalRef = ref<HTMLDivElement>();
 onClickOutside(modalRef, () => {
+  console.log("hata 1");
   open.value = false;
 });
 
 const flags = ref<string[]>(["united-states", "france", "turkey"]);
 
 const toggleLocales = (lang: string) => {
+  console.log("hata 2");
   locale.value = lang;
   open.value = false;
   return locale.value;
