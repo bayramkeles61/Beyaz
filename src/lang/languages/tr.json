@@ -1,7 +1,9 @@
 {
   "general": {
     "hello": "Merhaba",
-    "settings": "Ayarlar"
+    "settings": "Ayarlar",
+    "dark": "Gece",
+    "light": "Gündüz"
   },
   "auth": {
     "register": "Kaydol",

@@ -1,22 +1,19 @@
 <script setup lang="ts"></script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <NavBar />
-    </div>
-  </header>
-
-  <RouterView />
+  <div class="h-screen p-4">
+    <header>
+      <div class="wrapper rounded">
+        <NavBar />
+      </div>
+    </header>
+    <RouterView />
+  </div>
 </template>
 
 <style>
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-
-  font-weight: normal;
+  font-family: "Roboto";
 }
 
 #nprogress {
@@ -32,5 +29,8 @@
   left: 0;
   width: 100%;
   height: 2px;
+}
+html.dark {
+  background: #121212;
 }
 </style>

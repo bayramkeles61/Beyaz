@@ -1,0 +1,13 @@
+{
+  "general": {
+    "hello": "Bonjour",
+    "settings": "Paramètres",
+    "dark": "Foncé",
+    "light": "Clair"
+  },
+  "auth": {
+    "register": "S'enregistrer",
+    "login": "Connexion",
+    "logout": "Déconnexion"
+  }
+}

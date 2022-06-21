@@ -5,6 +5,8 @@ import '@vue/runtime-core'
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    DarkSwitcher: typeof import('./components/DarkSwitcher.vue')['default']
+    LanguageSwitcher: typeof import('./components/LanguageSwitcher.vue')['default']
     NavBar: typeof import('./components/__tests__/NavBar.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']

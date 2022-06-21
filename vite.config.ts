@@ -7,6 +7,7 @@ import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import WindiCSS from 'vite-plugin-windicss'
 import VueI18n from '@intlify/vite-plugin-vue-i18n'
+import ViteFonts from "vite-plugin-fonts";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -38,6 +39,11 @@ export default defineConfig({
     Components({
       dts: 'src/components.d.ts',
     }),
+    ViteFonts({
+      google: {
+          families: ["Inter", "Open Sans", "Lato", "Manrope", "Roboto"],
+      },
+  }),
   ],
   resolve: {
     alias: {

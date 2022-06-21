@@ -1,7 +1,9 @@
 {
   "general": {
     "hello": "Hello",
-    "settings": "Settings"
+    "settings": "Settings",
+    "dark": "Dark",
+    "light": "Light"
   },
   "auth": {
     "register": "Register",

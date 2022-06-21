@@ -5,5 +5,7 @@ const { t } = useI18n();
 </script>
 
 <template>
-  <main>{{ t("general.hello") }}</main>
+  <main class="font-bold flex items-center justify-center text-5xl p-20">
+    {{ t("general.hello") }}
+  </main>
 </template>
