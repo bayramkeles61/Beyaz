@@ -35,7 +35,7 @@ const toggleLocales = (lang: string) => {
       />
       <span>{{ locale }}</span>
     </button>
-    <div v-if="open" ref="modalRef" class="absolute w-full shadow-lg rounded">
+    <div v-if="open" ref="modalRef" class="absolute text-sm font-semibold w-full shadow-lg rounded">
       <div
         v-for="(lang, index) in availableLocales"
         class="dark:bg-gray-700 text-gray-700 dark:text-gray-200 first:rounded-t last:rounded-b"
