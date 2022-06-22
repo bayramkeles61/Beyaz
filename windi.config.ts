@@ -14,7 +14,10 @@ export default defineConfig({
     },
   },
   shortcuts: {
-    'btn': 'hover:text-gray-900 dark:hover:text-gray-100 text-gray-600 dark:text-gray-500 cursor-pointer',
+    'btn': 'px-5 py-3 rounded font-medium',
+    'primary': 'text-white bg-blue-600 hover:shadow-blue-500',
+    'secondary': 'text-blue-600 bg-transparent hover:bg-blue-500 hover:text-white',
+    'social-btn': 'hover:text-gray-900 dark:hover:text-gray-100 text-gray-600 dark:text-gray-500 cursor-pointer',
   },
   plugins: [
     formsPlugin
