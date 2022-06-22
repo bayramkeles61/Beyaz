@@ -1,5 +1,4 @@
 import path from 'path'
-import { fileURLToPath, URL } from 'url'
 
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
@@ -11,6 +10,11 @@ import ViteFonts from "vite-plugin-fonts";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  resolve: {
+    alias: {
+      '~/': `${path.resolve(__dirname, 'src')}/`,
+    },
+  },
   plugins: [
     Vue(),
     WindiCSS(),
@@ -40,13 +44,8 @@ export default defineConfig({
     }),
     ViteFonts({
       google: {
-          families: ["Inter", "Open Sans", "Lato", "Manrope", "Roboto"],
+        families: ["Inter", "Open Sans", "Lato", "Manrope", "Roboto"],
       },
-  }),
-  ],
-  resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
-  }
+    }),
+  ]
 })
